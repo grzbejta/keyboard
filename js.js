@@ -100,7 +100,6 @@ window.addEventListener('mouseup', e => {
       })
 })
 
-
 // Wylaczenie zdarzen prawe przycisku myszy oraz klawiatury
 document.addEventListener('contextmenu', event => event.preventDefault()); // prawy przycisk myszki
 window.onload = () => {
