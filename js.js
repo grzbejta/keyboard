@@ -107,6 +107,8 @@ window.onload = () => {
             switch (e.keyCode) {
                   case 9:
                         return (e.which || e.keyCode) != 9; //tab
+                  case 91:
+                        return (e.which || e.keyCode) != 91; //inny ekran
                   case 112:
                         return (e.which || e.keyCode) != 112; //f1
                   case 114:
@@ -123,6 +125,14 @@ window.onload = () => {
                         return (e.which || e.keyCode) != 122; //f11
                   case 123:
                         return (e.which || e.keyCode) != 123; //f12
+                  case 144:
+                        return (e.which || e.keyCode) != 144; //NumLock
+                  case 181:
+                        return (e.which || e.keyCode) != 181; //wycisz
+                  case 182:
+                        return (e.which || e.keyCode) != 182; //ciszej
+                  case 183:
+                        return (e.which || e.keyCode) != 183; //glosnie
             }
       };
 }
