@@ -125,8 +125,6 @@ window.onload = () => {
                         return (e.which || e.keyCode) != 122; //f11
                   case 123:
                         return (e.which || e.keyCode) != 123; //f12
-                  case 144:
-                        return (e.which || e.keyCode) != 144; //NumLock
                   case 181:
                         return (e.which || e.keyCode) != 181; //wycisz
                   case 182:
