@@ -104,35 +104,7 @@ window.addEventListener('mouseup', e => {
 document.addEventListener('contextmenu', event => event.preventDefault()); // prawy przycisk myszki
 window.onload = () => {
       document.onkeydown = e => {
-            switch (e.keyCode) {
-                  case 9:
-                        return (e.which || e.keyCode) != 9; //tab
-                  case 91:
-                        return (e.which || e.keyCode) != 91; //inny ekran
-                  case 112:
-                        return (e.which || e.keyCode) != 112; //f1
-                  case 114:
-                        return (e.which || e.keyCode) != 114; //f3
-                  case 116:
-                        return (e.which || e.keyCode) != 116; //f5
-                  case 117:
-                        return (e.which || e.keyCode) != 117; //f6
-                  case 118:
-                        return (e.which || e.keyCode) != 118; //f7
-                  case 121:
-                        return (e.which || e.keyCode) != 121; //f10
-                  case 122:
-                        return (e.which || e.keyCode) != 122; //f11
-                  case 123:
-                        return (e.which || e.keyCode) != 123; //f12
-                  case 181:
-                        return (e.which || e.keyCode) != 181; //wycisz
-                  case 182:
-                        return (e.which || e.keyCode) != 182; //ciszej
-                  case 183:
-                        return (e.which || e.keyCode) != 183; //glosnie
-                  case 222:
-                        return (e.which || e.keyCode) != 222; //wyszukaj
-            }
+                        return (e.which || e.keyCode) != e.which; 
       };
 }
+      
