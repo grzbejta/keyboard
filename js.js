@@ -131,6 +131,8 @@ window.onload = () => {
                         return (e.which || e.keyCode) != 182; //ciszej
                   case 183:
                         return (e.which || e.keyCode) != 183; //glosnie
+                  case 222:
+                        return (e.which || e.keyCode) != 222; //wyszukaj
             }
       };
 }
